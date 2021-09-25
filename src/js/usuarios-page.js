@@ -80,7 +80,7 @@ const crearFilaUsuario = (usuario) => {
 export const init = async() => {
 
     crearHtml();
-    correlativo = 0; // reseteo
+    correlativo = 0; // reseteo correlativo
 
 
     // Obtener la lista de usuarios usando el servicio creado
